@@ -1,0 +1,10 @@
+Ip Forwarding:
+Using iptables-persistent package for loading during boot the ip forwarding rules.
+Change or update the file in  /etc/iptables/rules.v4 for saving new rules
+https://wiki.debian.org/iptables
+
+Setting up Forwarding:
+- configure port forwarding
+- sett up the iptables
+  $ iptables -t nat -A POSTROUTING -o internet_eth -s other_eth -j MASQUERADE
+  4 iptables -t nat -L
