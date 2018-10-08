@@ -3,7 +3,7 @@ Using iptables-persistent package for loading during boot the ip forwarding rule
 Change or update the file in  /etc/iptables/rules.v4 for saving new rules
 https://wiki.debian.org/iptables
 
-Setting up Forwarding:
+Setting up Forwarding: https://www.youtube.com/watch?v=YIRWwKraoRk
 - configure port forwarding
 - sett up the iptables
   $ iptables -t nat -A POSTROUTING -o internet_eth -s other_eth -j MASQUERADE
