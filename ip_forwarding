@@ -6,7 +6,7 @@ https://wiki.debian.org/iptables
 Setting up Forwarding: https://www.youtube.com/watch?v=YIRWwKraoRk
 - configure port forwarding
 - sett up the iptables
-  $ iptables -t nat -A POSTROUTING -o internet_eth -s other_eth -j MASQUERADE
+  $ iptables -t nat -A POSTROUTING -o internet_eth -i other_eth -j MASQUERADE
   4 iptables -t nat -L
   
   
