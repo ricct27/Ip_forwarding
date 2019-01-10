@@ -22,4 +22,6 @@ sudo iptables -S
 
 # Make them persistent over reboot
 sudo apt-get install iptables-persistent
+sudo su
 iptables-save > /etc/iptables/rules.v4
+
