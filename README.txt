@@ -21,5 +21,5 @@ sudo iptables -L
 sudo iptables -S
 
 # Make them persistent over reboot
-apt-get install iptables-persistent
+sudo apt-get install iptables-persistent
 iptables-save > /etc/iptables/rules.v4
