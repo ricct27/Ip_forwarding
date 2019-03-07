@@ -6,6 +6,6 @@ sudo nano /etc/udev/rules.d/70-persistent-net.rules
 
 # Add the lines with the correspond mac
 # PCI device 0x10ec:0x8xxxx (ethernet_module_here)
-SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="3x:17:ef:6f:s2:2h", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="9c:eb:e8:86:99:f4", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth0"
 
-# Disable the Predictable Network Interface Names with:
+
